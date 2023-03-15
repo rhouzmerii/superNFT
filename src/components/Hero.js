@@ -19,10 +19,9 @@ function Hero() {
             Super NFT <br />
             <span className='font-normal'>Marketplace</span>
           </h1>
-          <div className='heart-rate my-4'>
+          <div className='my-4'>
             <img src={flip} alt='' />
-            <div className='fade-in'></div>
-            <div className='fade-out'></div>
+            
           </div>
           <p className='text-[16px] font-inter text-white w-[100%] sm:w-[370px] mb-7'>
             The largest and unique Super rare NFT marketplace For
