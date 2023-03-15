@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Peralta&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradient-01 {
+  background: linear-gradient(
+    270deg,
+    #15bffd 0%,
+    #15bffd 26%,
+    hsl(257deg 70% 86%) 39%,
+    hsl(202deg 92% 90%) 50%,
+    hsl(215deg 77% 81%) 61%,
+    hsl(221deg 73% 70%) 74%,
+    hsl(220deg 76% 51%) 100%
+  );
+  filter: blur(125px);
+}
+.heart-rate {
+  position: relative;
+
+  overflow: hidden;
+}
+
+.fade-in {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #080b2a;
+  top: 0;
+  right: 0;
+  animation: heartRateIn 4.5s linear infinite;
+}
+
+.fade-out {
+  position: absolute;
+  width: 120%;
+  height: 100%;
+  top: 0;
+  left: -120%;
+  animation: heartRateOut 4.5s linear infinite;
+  background: #080b2a;
+  background: -moz-linear-gradient(left, #080b2a 0%, #080b2a 50%, #080b2a 100%);
+  background: -webkit-linear-gradient(
+    left,
+    #080b2a 0%,
+    #080b2a 50%,
+    #080b2a 100%
+  );
+  background: -o-linear-gradient(left, #080b2a 0%, #080b2a 50%, #080b2a 100%);
+  background: -ms-linear-gradient(left, #080b2a 0%, #080b2a 50%, #080b2a 100%);
+  background: linear-gradient(to right, #080b2a 0%, #080b2a 80%, #080b2a 100%);
+}
+
+@keyframes heartRateIn {
+  0% {
+    width: 100%;
+  }
+  50% {
+    width: 0%;
+  }
+  100% {
+    width: 0;
+  }
+}
+
+@keyframes heartRateOut {
+  0% {
+    left: -120%;
+  }
+  30% {
+    left: -120%;
+  }
+  100% {
+    left: 0;
+  }
+}
+.sla::after {
+  content: "";
+  position: absolute;
+  width: 70px;
+  height: 110px;
+
+  transform: rotate(45deg);
+  margin: -20px;
+  box-shadow: 0 0 0 550px rgba(255, 255, 255, 0.053);
+  backdrop-filter: blur(25px);
+  margin-left: -22px;
+  margin-top: -40px;
+  border: 2px solid;
+  border-image: linear-gradient(
+      152.14deg,
+      rgba(21, 191, 253, 0.7),
+      rgba(156, 55, 253, 0.7)
+    )
+    1;
+}
+.bor {
+  border: 2px solid;
+  border-image: linear-gradient(
+      152.14deg,
+      rgba(21, 191, 253, 0.7),
+      rgba(156, 55, 253, 0.7)
+    )
+    1;
+
+    border-left: 0;
+    border-top: 0;
+    
+}

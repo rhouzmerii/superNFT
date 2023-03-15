@@ -1,0 +1,4 @@
+<div className="flex ">
+        <div className='w-[260px] h-[400px] relative sla overflow-hidden bor  rotate-[-180deg]'></div>
+        <div className=' top-[90px] w-[260px] h-[400px] relative sla overflow-hidden bor rotate-[200deg]'></div>
+      </div>
