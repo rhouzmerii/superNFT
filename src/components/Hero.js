@@ -24,8 +24,7 @@ function Hero() {
             
           </div>
           <p className='text-[16px] font-inter text-white w-[100%] text-center sm:w-[370px] mb-7'>
-            The largest and unique Super rare NFT marketplace For
-            crypto-collectibles
+            The largest and unique Super rare NFT marketplace For crypto-collectibles
           </p>
           <div className='flex mb-2'>
             <button className='px-[15px] py-[8px] rounded-[30px] flex justify-center items-center  bg-[#15BFFD] text-white'>
