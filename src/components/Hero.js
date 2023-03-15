@@ -15,7 +15,7 @@ function Hero() {
     <div className='flex  flex-col sm:flex-row sm:items-center sm:justify-between w-[100%] px-4 sm:px-20  relative'>
       <div className='flex '>
         <div className='flex flex-col'>
-          <h1 className='text-[50px] sm:text-[80px] leading-[60px] text-white font-semibold font-clash mt-14'>
+          <h1 className='text-[57px]  sm:text-[80px] leading-[60px] text-white font-semibold font-clash mt-14'>
             Super NFT <br />
             <span className='font-normal'>Marketplace</span>
           </h1>
@@ -23,7 +23,7 @@ function Hero() {
             <img src={flip} alt='' />
             
           </div>
-          <p className='text-[16px] font-inter text-white w-[100%] sm:w-[370px] mb-7'>
+          <p className='text-[16px] font-inter text-white w-[100%] text-center sm:w-[370px] mb-7'>
             The largest and unique Super rare NFT marketplace For
             crypto-collectibles
           </p>
