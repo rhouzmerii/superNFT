@@ -43,7 +43,7 @@ function Navbar() {
            
           </IconContext.Provider>
         </div>
-         <div className="flex justify-end">
+         <div className="flex sm:hidden flex justify-end">
           <img src={menu} alt="" />
         </div>
       </div>

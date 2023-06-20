@@ -23,7 +23,7 @@ function Hero() {
             <img src={flip} alt='' />
             
           </div>
-          <p className='text-[16px] font-inter text-white w-[100%] text-center sm:w-[370px] mb-7'>
+          <p className='text-[16px] font-inter text-white w-[100%]  sm:w-[370px] mb-7'>
             The largest and unique Super rare NFT marketplace For crypto-collectibles
           </p>
           <div className='flex mb-2'>
